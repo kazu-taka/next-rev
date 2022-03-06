@@ -1,0 +1,5 @@
+CREATE DATABASE IF NOT EXISTS next_db;
+
+CREATE USER IF NOT EXISTS next_admin IDENTIFIED BY '1234';
+
+GRANT ALL ON next_db.* TO next_admin;
